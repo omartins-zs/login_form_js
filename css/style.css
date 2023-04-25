@@ -244,3 +244,45 @@ button:hover {
 .login-form-btn:hover {
     background-color: var(--highligth-text);
 }
+
+/* Links - Login Utils */
+
+a {
+    font-family: Poppins-Medium;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--link-color);
+    margin: 0px;
+    transition: all 0.4s;
+}
+
+a:focus {
+    outline: none !important;
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--highligth-text);
+}
+
+.login-utils {
+    margin-top: 20px;
+}
+
+.login-utils li {
+    position: relative;
+    padding-left: 16px;
+}
+
+.login-utils li::before {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: var(--point-list);
+    top: 45%;
+    transform: translateY(-50%);
+    left: 0;
+}
