@@ -61,3 +61,40 @@ button {
 button:hover {
     cursor: pointer;
 }
+
+/* Utilitarios*/
+
+
+.text1 {
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    color: var(--text1);
+    line-height: 1.5;
+}
+
+.text2 {
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    color: var(--main-color);
+    line-height: 1.5;
+}
+
+.margin-top-35 {
+    margin-top: 35px;
+}
+
+.margin-bottom-35 {
+    margin-bottom: 35px;
+}
+
+.margin-bottom-8 {
+    margin-bottom: 8px;
+}
+
+.margin-top-8 {
+    margin-top: 8px;
+}
+
+.margin-left-50 {
+    margin-left: 50px;
+}
