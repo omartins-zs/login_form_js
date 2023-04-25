@@ -9,3 +9,6 @@ StorySet  https://storyset.com/login
 Google Fonts
 
 Poppins https://fonts.google.com/specimen/Poppins
+
+
+Pace Progress Bar(Barra de carregamento) https://codebyzach.github.io/pace/
