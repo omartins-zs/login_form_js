@@ -9,6 +9,7 @@
     --white-color: #FFFFFF;
     --point-list: #CCCCCC;
     --line-input: #D9D9D9;
+    --invalid-field: #E74C3C;
 }
 
 /* Fontes */
@@ -176,9 +177,9 @@ button:hover {
     bottom: -2px;
     left: 0;
     width: 0;
-    height: 0;
+    height: 2px;
     transition: all 0.4s;
-    background-color: var(--main-color);
+    background: var(--main-color);
 }
 
 .focus-input-form::after {
@@ -285,4 +286,9 @@ a:hover {
     top: 45%;
     transform: translateY(-50%);
     left: 0;
+}
+
+.wrap-input-invalid {
+    width: 100%;
+    border-bottom: 2px solid var(--invalid-field);
 }
